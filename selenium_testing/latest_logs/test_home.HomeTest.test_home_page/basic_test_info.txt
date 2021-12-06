@@ -1,0 +1,27 @@
+test_home.py::HomeTest::test_home_page
+--------------------------------------------------------------------
+Last Page: https://practice.automationbro.com/my-account/
+  Browser: chrome
+Timestamp: 1638525134  (Unix Timestamp)
+     Date: Friday, 3 December 2021
+     Time: 3:22:14 PM  (India Standard Time, UTC+05:30)
+--------------------------------------------------------------------
+Traceback: File "C:\Program Files\Python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "C:\Program Files\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\dishita\selenium_testing\tests\test_home.py", line 34, in test_home_page
+    self.assert_title("Practice E-Commerce  – Automation Bro")
+  File "c:\users\dishita\selenium_testing\venv\lib\site-packages\seleniumbase\fixtures\base_case.py", line 5122, in assert_title
+    self.assertEqual(expected, actual, error % (expected, actual))
+  File "C:\Program Files\Python39\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Program Files\Python39\lib\unittest\case.py", line 1211, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Program Files\Python39\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+Exception: 'Practice E-Commerce  – Automation Bro' != 'Practice E-Commerce Site – Automation Bro'
+- Practice E-Commerce  – Automation Bro
++ Practice E-Commerce Site – Automation Bro
+?                     ++++
+ : Expected page title [Practice E-Commerce  – Automation Bro] does not match the actual title [Practice E-Commerce Site – Automation Bro]!

@@ -1,0 +1,22 @@
+test_upload.py::UploadTest::test_upload
+--------------------------------------------------------------------
+Last Page: [WARNING! Browser Not Open!]
+  Browser: chrome
+Timestamp: 1638525234  (Unix Timestamp)
+     Date: Friday, 3 December 2021
+     Time: 3:23:54 PM  (India Standard Time, UTC+05:30)
+--------------------------------------------------------------------
+Traceback: File "C:\Program Files\Python39\lib\unittest\case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "C:\Program Files\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\dishita\selenium_testing\tests\test_upload.py", line 13, in test_upload
+    self.click("#upload_1")
+  File "c:\users\dishita\selenium_testing\venv\lib\site-packages\seleniumbase\fixtures\base_case.py", line 219, in click
+    element = page_actions.wait_for_element_visible(
+  File "c:\users\dishita\selenium_testing\venv\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 370, in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+  File "c:\users\dishita\selenium_testing\venv\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 163, in timeout_exception
+    raise exception(message)
+Exception: Message: 
+ Element {#upload_1} was not present after 6 seconds!
